@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Retro Computer';
+    src: url(font/retrocomputer.ttf);
+    font-family: 'Brodies';
+    src: url(font/brodies.ttf);
+    font-family: 'Silk Flower';
+    src: url(font/Silk\ Flower.otf);
+    font-family: 'Qanoar';
+    src: url(font/Qanoar.otf);
+    font-family: 'Marlowe';
+    src: url(font/MarloweFreeForPersonalUseOnly-Regular.otf);
+}
+
+body{
+    background-color: #d88dd3;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 25px;
+    font-family: 'Retro Computer';
+    
+}
+
+header:hover {
+    opacity: 0.25;
+    
+}
+
+nav {
+    color: #7600ff;
+    width: 300px;
+    position: fixed;
+    top: 185px;
+    left: 120px;
+    font-family: helvetica;
+    margin: 10px;
+    font-size: 16px;
+
+
+}
+
+main {
+    background-color: #ffd7fe;
+    border-style: dotted;
+    width: 650px;
+    margin-left: 350px;
+}
+
+h1 {
+    font-family: 'Retro Computer';
+    color: #7600ff;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1:hover {
+    background-color: #f471ff;
+}
+
+section {
+    border: 1px darkolivegreen;
+    margin-top: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+section img{
+    width: 500px;
+}
+
+section img:hover{
+    background-color: #f471ff;
+}
+
+
+video {
+    width: 500px;
+}
+
+section video:hover{
+    background-color: #f471ff;
+}
+
+p{
+    font-family: 'Silk Flower';
+    color: royalblue;
+    padding: 10px;
+    font-size: 20px
+}
+
+footer {
+    width: 300px;
+    position: fixed;
+    bottom: 50px;
+    left: 25px;
+    font-family: helvetica?
+    
+    
+    ;
+    color: darkgreen;
+
+}
+
+section img {
+    border: 1px white dotted;
+    padding: 10px;
+}
+
+section video {
+    border: 1px white dotted;
+    padding: 10px;
+}
+
+#splashgif {
+    text-align: center;
+   
+}
