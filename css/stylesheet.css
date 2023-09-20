@@ -15,6 +15,7 @@ body{
     background-color: #d88dd3;
     max-width: 1200px;
     margin: auto;
+    border-style: 10px lightcoral dotted;
 }
 
 header{
@@ -37,10 +38,11 @@ nav {
     width: 300px;
     position: fixed;
     top: 185px;
-    left: 70px;
+    left: 15px;
     font-family: helvetica;
+    text-align: center;
     margin: 10px;
-    font-size: 16px;
+    font-size: 12px;
 
 }
 
@@ -50,7 +52,7 @@ nav h3:hover {
 
 main {
     background-color: #ffd7fe;
-    border-style: dotted;
+    border-style: 10px white dotted;
     width: 650px;
     margin-left: 350px;
 }
@@ -60,6 +62,7 @@ h1 {
     color: #7600ff;
     text-align: center;
     font-size: 40px;
+    border-style: 10px hotpink dotted;
 }
 
 h1:hover {
@@ -67,15 +70,14 @@ h1:hover {
 }
 
 section {
-    border: 1px darkolivegreen;
-    margin-top: 25px;
     text-align: center;
     padding: 20px;
 }
 
 section img{
     width: 300px;
-    padding: 10px;
+    border: 10px lightcoral dotted;
+    padding: 30px;
 }
 
 section img:hover{
@@ -85,29 +87,22 @@ section img:hover{
 
 video {
     width: 300px;
+    border: 10px lightcoral dotted;
+    padding: 10px;
 }
 
 section video:hover{
     background-color: #f471ff;
 }
 
+
 p{
     font-family: helvetica;
     color: royalblue;
     padding: 10px;
-    font-size: 20px
+    font-size: 17px
 }
 
-.column {
-    float: left;
-    padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 footer {
     width: 300px;
@@ -119,15 +114,6 @@ footer {
 
 }
 
-section img {
-    border: 1px white dotted;
-    padding: 10px;
-}
-
-section video {
-    border: 1px white dotted;
-    padding: 10px;
-}
 
 #splashgif {
     text-align: center;
