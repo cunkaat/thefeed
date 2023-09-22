@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Retro Computer';
-    src: url(font/retrocomputer.ttf);
+    src: url('font/retrocomputer.ttf');
     font-family: 'Brodies';
-    src: url(font/brodies.ttf);
+    src: url('font/brodies.ttf');
     font-family: 'Silk Flower';
-    src: url(font/Silk\ Flower.otf);
+    src: url('font/Silk_Flower.otf');
     font-family: 'Qanoar';
-    src: url(font/Qanoar.otf);
+    src: url('font/Qanoar.otf');
     font-family: 'Marlowe';
-    src: url(font/MarloweFreeForPersonalUseOnly-Regular.otf);
+    src: url('font/MarloweFreeForPersonalUseOnly-Regular.otf');
 }
 
 body{
@@ -24,7 +24,6 @@ header{
     position: fixed;
     top: 50px;
     left: 25px;
-    font-family: 'Retro Computer';
     
 }
 
@@ -37,7 +36,7 @@ nav {
     color: #7600ff;
     width: 300px;
     position: fixed;
-    top: 185px;
+    top: 200px;
     left: 15px;
     font-family: helvetica;
     text-align: center;
@@ -58,6 +57,7 @@ main {
 }
 
 h1 {
+    top: 80px;
     font-family: 'Retro Computer';
     color: #7600ff;
     text-align: center;
@@ -99,7 +99,6 @@ section video:hover{
 p{
     font-family: helvetica;
     color: royalblue;
-    padding: 10px;
     font-size: 17px
 }
 
@@ -113,7 +112,6 @@ footer {
     color: darkgreen;
 
 }
-
 
 #splashgif {
     text-align: center;
