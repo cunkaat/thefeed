@@ -60,7 +60,8 @@ h1 {
     color: #7600ff;
     text-align: center;
     font-size: 70px;
-    border-style: 10px hotpink dotted;
+    border: 10px lightsteelblue dotted;
+    padding: 15px;
 }
 
 h1:hover {
