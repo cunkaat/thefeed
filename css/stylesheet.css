@@ -1,14 +1,10 @@
 @font-face {
     font-family: 'Retro Computer';
     src: url('font/retrocomputer.ttf');
-    font-family: 'Brodies';
-    src: url('font/brodies.ttf');
-    font-family: 'Silk Flower';
-    src: url('font/Silk_Flower.otf');
-    font-family: 'Qanoar';
-    src: url('font/Qanoar.otf');
-    font-family: 'Marlowe';
-    src: url('font/MarloweFreeForPersonalUseOnly-Regular.otf');
+    font-family: 'Rubik Pixels';
+    src: url('font/rubikpixels.ttf');
+    font-family: 'Google Pixel';
+    src: url('font/googlepixel.ttf')
 }
 
 body{
@@ -34,19 +30,21 @@ header:hover {
 
 nav {
     color: #7600ff;
-    width: 300px;
+    width: 250px;
     position: fixed;
     top: 200px;
-    left: 15px;
+    left: 30px;
     font-family: helvetica;
     text-align: center;
     margin: 10px;
     font-size: 12px;
+    background-color: rgb(196, 210, 255);  border: 10px lightseagreen dotted;
 
 }
 
 nav h3:hover {
     background-color: #f471ff;
+  
 }
 
 main {
@@ -57,16 +55,22 @@ main {
 }
 
 h1 {
-    top: 80px;
-    font-family: 'Retro Computer';
+    top: 10px;
+    font-family: 'Google Pixel';
     color: #7600ff;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     border-style: 10px hotpink dotted;
 }
 
 h1:hover {
     background-color: #f471ff;
+}
+
+
+h2:hover{
+    background-color: #f471ff;
+
 }
 
 section {
@@ -105,11 +109,12 @@ p{
 
 footer {
     position: fixed;
-    bottom: 20px;
+    bottom: 3px;
     left: 120px;
 }
 
 footer:hover{
+    background-color: #f471ff;
     opacity: 0.25;
 }
 
