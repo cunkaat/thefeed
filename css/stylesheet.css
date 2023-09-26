@@ -32,7 +32,7 @@ nav {
     color: #7600ff;
     width: 250px;
     position: fixed;
-    top: 200px;
+    top: 197px;
     left: 30px;
     font-family: helvetica;
     text-align: center;
@@ -59,7 +59,7 @@ h1 {
     font-family: 'Google Pixel';
     color: #7600ff;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     border-style: 10px hotpink dotted;
 }
 
